@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextViews for Hotel Name, Location, Check In Time, Payment Method, and Date -->
+    <TextView
+        android:id="@+id/textHotelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hotel Name: " />
+
+    <TextView
+        android:id="@+id/textLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: " />
+
+    <TextView
+        android:id="@+id/textCheckIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check In Time: " />
+
+    <TextView
+        android:id="@+id/textPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method: " />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: " />
+
+    <!-- Cancel Booking Button -->
+    <Button
+        android:id="@+id/btnCancelBooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Booking"
+        android:onClick="cancelBooking" />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string-array name="peopleamount">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+
+    </string-array>
+
+    <string-array name="flightclass">
+        <item>First Class</item>
+        <item>Business Class</item>
+        <item>Economy Class</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Malaysia</item>
+        <item>Japan</item>
+        <item>China</item>
+        <item>Korea</item>
+        <item>Singapore</item>
+    </string-array>
+
+    <string-array name="units">
+        <item>Metric(km,m,kg)</item>
+        <item>Imperial(miles,ft,lb)</item>
+    </string-array>
+
+    <string name="app_name2">My Application</string>
+    <string-array name="temperature">
+        <item>Celsius(°C)</item>
+        <item>Fahrenheit(°F)</item>
+
+    </string-array>
+
+    <string name="app_name3">My Application</string>
+    <string-array name="country2">
+        <item>Africa</item>
+        <item>Brazil</item>
+        <item>China</item>
+        <item>Dubai</item>
+        <item>Europe</item>
+        <item>France</item>
+        <item>German</item>
+        <item>HongKong</item>
+        <item>Iceland</item>
+        <item>Japan</item>
+        <item>Korea</item>
+        <item>Laos</item>
+        <item>Malaysia</item>
+        <item>Nepal</item>
+        <item>Oman</item>
+        <item>Poland</item>
+        <item>Qatar</item>
+        <item>Russia</item>
+        <item>Singapore</item>
+        <item>Thailand</item>
+        <item>United State of America</item>
+        <item>Vietnam</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+    </string-array>
+</resources>

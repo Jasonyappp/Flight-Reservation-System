@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalAsignment"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewHistory"
+            android:exported="false" />
+        <activity
+            android:name=".booking_flight"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".AddCard"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".advance_booking"
+            android:exported="false" />
+        <activity
+            android:name=".booking"
+            android:exported="false" />
+        <activity
+            android:name=".booking_system"
+            android:exported="false" />
+        <activity
+            android:name=".cardpayment"
+            android:exported="false" />
+        <activity
+            android:name=".cashpayment"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseMeal"
+            android:exported="false" />
+        <activity
+            android:name=".confiembooking"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerService"
+            android:exported="false" />
+        <activity
+            android:name=".creditordebitpay"
+            android:exported="false" />
+        <activity
+            android:name=".EditInformation"
+            android:exported="false" />
+        <activity
+            android:name=".Favourites"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".identity_comfirm"
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Monthly_statistics"
+            android:exported="false" />
+        <activity
+            android:name=".My_cart"
+            android:exported="false" />
+        <activity
+            android:name=".MyCard"
+            android:exported="false" />
+        <activity
+            android:name=".payment_unsuccessful"
+            android:exported="false" />
+        <activity
+            android:name=".paymentpage"
+            android:exported="false" />
+        <activity
+            android:name=".paymentsuccess"
+            android:exported="false" />
+        <activity
+            android:name=".Popular"
+            android:exported="false" />
+        <activity
+            android:name=".Portrait"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".promotion"
+            android:exported="false" />
+        <activity
+            android:name=".Review"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewSubmit"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".ticketselection"
+            android:exported="false" />
+        <activity
+            android:name=".transectionhistory"
+            android:exported="false" />
+        <activity
+            android:name=".yearly_details"
+            android:exported="false" />
+        <activity
+            android:name=".yearly_statistic"
+            android:exported="false" />
+        <activity
+            android:name=".identity_select"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

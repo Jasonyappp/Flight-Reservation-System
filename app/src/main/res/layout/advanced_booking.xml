@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".advance_booking">
+
+
+    <Spinner
+        android:id="@+id/sppeople"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="34dp"
+        android:entries="@array/peopleamount"
+        app:layout_constraintBottom_toBottomOf="@+id/peopleamountview"
+        app:layout_constraintStart_toEndOf="@+id/peopleamountview"
+        app:layout_constraintTop_toTopOf="@+id/peopleamountview" />
+
+    <Spinner
+        android:id="@+id/spclass"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:entries="@array/flightclass"
+        app:layout_constraintBottom_toBottomOf="@+id/classview"
+        app:layout_constraintStart_toStartOf="@+id/sppeople"
+        app:layout_constraintTop_toTopOf="@+id/classview" />
+
+    <TextView
+        android:id="@+id/classview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Class :"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/peopleamountview"
+        app:layout_constraintTop_toBottomOf="@+id/peopleamountview" />
+
+    <TextView
+        android:id="@+id/peopleamountview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="64dp"
+        android:text="Amount of People :"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/mealview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Meal :"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/peopleamountview"
+        app:layout_constraintTop_toBottomOf="@+id/classview" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="134dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wind02" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="100dp"
+        android:text="Back"
+        android:onClick="SendAdvanced_Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mealview" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="Confirm"
+        android:onClick="confirmButtonClick"
+        app:layout_constraintBottom_toBottomOf="@+id/backbutton"
+        app:layout_constraintStart_toEndOf="@+id/backbutton" />
+
+    <CheckBox
+        android:id="@+id/meal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mealview"
+        app:layout_constraintStart_toStartOf="@+id/sppeople"
+        app:layout_constraintTop_toTopOf="@+id/mealview" />
+</androidx.constraintlayout.widget.ConstraintLayout>

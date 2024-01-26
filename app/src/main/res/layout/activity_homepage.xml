@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="124dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/wind03" />
+
+    <TextView
+        android:id="@+id/logoname1"
+        android:layout_width="70dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="19dp"
+        android:text="WindGlider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo1" />
+
+    <Button
+        android:id="@+id/bookingbutton"
+        android:layout_width="113dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="4dp"
+        android:text="Booking"
+        android:onClick="SendBooking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/profilebutton"
+        android:layout_width="104dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="6dp"
+        android:text="Profile"
+        android:onClick="Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="454dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoname1"
+        app:srcCompat="@drawable/_91445417" />
+
+    <ImageButton
+        android:id="@+id/popularimageButton"
+        android:layout_width="134dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="13dp"
+        android:contentDescription="popular1"
+        android:onClick="SendPopular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/promotionimageButton2"
+        android:layout_width="137dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="promotion1"
+        android:onClick="SendPromotion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:text="Popular Countries"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popularimageButton" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="8dp"
+        android:text="Promotion Bundle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/promotionimageButton2" />
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="104dp"
+        android:layout_height="51dp"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.99"
+        android:onClick="logout"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
